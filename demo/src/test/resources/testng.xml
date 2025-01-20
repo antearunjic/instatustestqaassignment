@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite" parallel="false">
+    <!-- Endpoint 1 -->
+    <test name="Get Pages Endpoint Test">
+        <classes>
+            <class name="com.example.GetPagesTests.BaseApiTest" />
+            <class name="com.example.GetPagesTests.DateValidationTest" />
+            <class name="com.example.GetPagesTests.FieldValidationTest" />
+            <class name="com.example.GetPagesTests.JsonStructureTest" />
+            <class name="com.example.GetPagesTests.StatusCodeTest" />
+            <class name="com.example.GetPagesTests.UniquenessValidationTest" />
+        </classes>
+    </test>
+
+    <!-- Endpoint 2 -->
+    <test name="Get Components Endpoint Test">
+        <classes>
+            <class name="com.example.GetPageComponentsTests.BaseApiTest" />
+            <class name="com.example.GetPageComponentsTests.DateValidationTest" />
+            <class name="com.example.GetPageComponentsTests.FieldValidationTest" />
+            <class name="com.example.GetPageComponentsTests.JsonStructureTest" />
+            <class name="com.example.GetPageComponentsTests.StatusCodeTest" />
+            <class name="com.example.GetPageComponentsTests.UniquenessValidationTest" />
+        </classes>
+    </test>
+
+    <!-- Endpoint 3 -->
+    <test name="Get Component Endpoint Test">
+        <classes>
+            <class name="com.example.GetPageComponentTests.BaseApiTest" />
+            <class name="com.example.GetPageComponentTests.DateValidationTest" />
+            <class name="com.example.GetPageComponentTests.FieldValidationTest" />
+            <class name="com.example.GetPageComponentTests.JsonStructureTest" />
+            <class name="com.example.GetPageComponentTests.StatusCodeTest" />
+            <class name="com.example.GetPageComponentTests.UniquenessValidationTest" />
+        </classes>
+    </test>
+
+    <!-- Endpoint 4 -->
+    <test name="Get Incidents Endpoint Test">
+        <classes>
+            <class name="com.example.IncidentsApiTests.BaseApiTest" />
+            <class name="com.example.IncidentsApiTests.DateValidationTest" />
+            <class name="com.example.IncidentsApiTests.FieldValidationTest" />
+            <class name="com.example.IncidentsApiTests.JsonStructureTest" />
+            <class name="com.example.IncidentsApiTests.StatusCodeTest" />
+            <class name="com.example.IncidentsApiTests.UniquenessValidationTest" />
+        </classes>
+    </test>
+</suite>
