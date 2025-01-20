@@ -1,0 +1,1 @@
+Test files for each endpoint can be found under demo/src/test/java/com/example. For each endpoint, folder was created. For testing the files, i used Run Test Runner for Java that was available on VS Code.
